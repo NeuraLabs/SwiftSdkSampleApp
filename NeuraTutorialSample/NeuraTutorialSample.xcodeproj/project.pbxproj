@@ -181,6 +181,7 @@
 				B8D0B7002619A9C40080E2BF /* Sources */,
 				B8D0B7012619A9C40080E2BF /* Frameworks */,
 				B8D0B7022619A9C40080E2BF /* Resources */,
+				B3DDF99A243A10B0A3FF40A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +219,7 @@
 				B8D0B7212619A9C60080E2BF /* Sources */,
 				B8D0B7222619A9C60080E2BF /* Frameworks */,
 				B8D0B7232619A9C60080E2BF /* Resources */,
+				C85608FE4293B36511EB1A53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -341,6 +343,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3DDF99A243A10B0A3FF40A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeuraTutorialSample/Pods-NeuraTutorialSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeuraTutorialSample/Pods-NeuraTutorialSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeuraTutorialSample/Pods-NeuraTutorialSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C85608FE4293B36511EB1A53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA9BF3935C893DC6AC92EE62 /* [CP] Check Pods Manifest.lock */ = {

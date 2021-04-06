@@ -1,6 +1,6 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
-source 'https://github.com/NeuraLabs/NeuraSwiftSDKFramework.git'
+#source 'https://github.com/NeuraLabs/NeuraSwiftSDKFramework.git'
 
 
 target 'NeuraTutorialSample' do
@@ -8,7 +8,7 @@ target 'NeuraTutorialSample' do
   use_frameworks!
 
   # Pods for NeuraTutorialSample
-  pod 'NeuraSwiftSDKFramework', '>= 5.1.13'
+  pod 'NeuraSwiftSDKFramework'
 
   target 'NeuraTutorialSampleTests' do
     inherit! :search_paths
