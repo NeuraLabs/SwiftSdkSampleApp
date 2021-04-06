@@ -9,6 +9,7 @@ target 'NeuraTutorialSample' do
 
   # Pods for NeuraTutorialSample
   pod 'NeuraSwiftSDKFramework'
+  pod 'KRProgressHUD'
 
   target 'NeuraTutorialSampleTests' do
     inherit! :search_paths

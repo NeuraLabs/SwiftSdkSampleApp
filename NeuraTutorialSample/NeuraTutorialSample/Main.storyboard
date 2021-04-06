@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--login-->
+        <scene sceneID="UUI-zA-sfQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="login" id="nGW-JO-ja5" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Tq3-58-M3g"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8b3-du-cG8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8" y="717"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Neura_Swift_Sample_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0sh-og-tjE"/>
+                        <viewControllerLayoutGuide type="bottom" id="C5W-IQ-pPf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D9o-Os-9Z0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="386"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7m-oo-kNk">
+                                        <rect key="frame" x="87.5" y="93" width="200" height="200"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="neura_symbol_bottom_element" translatesAutoresizingMaskIntoConstraints="NO" id="oPz-2J-7Kk">
+                                                <rect key="frame" x="31" y="130" width="138" height="70"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SDK Version" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhl-Fl-Zgk">
+                                                <rect key="frame" x="57" y="13.5" width="85" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App Version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZt-cy-z7p">
+                                                <rect key="frame" x="63" y="-4.5" width="73.5" height="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="neura_symbol_top_element" translatesAutoresizingMaskIntoConstraints="NO" id="xyx-yJ-bOD">
+                                                <rect key="frame" x="31" y="52" width="138" height="70"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="xyx-yJ-bOD" firstAttribute="top" secondItem="f7m-oo-kNk" secondAttribute="top" constant="52" id="5df-Q5-dJq"/>
+                                            <constraint firstItem="yhl-Fl-Zgk" firstAttribute="top" secondItem="bZt-cy-z7p" secondAttribute="bottom" constant="2" id="HpV-RN-vyW"/>
+                                            <constraint firstAttribute="width" constant="200" id="Qau-aE-6nM"/>
+                                            <constraint firstItem="xyx-yJ-bOD" firstAttribute="centerX" secondItem="f7m-oo-kNk" secondAttribute="centerX" id="dxf-OU-EAv"/>
+                                            <constraint firstItem="yhl-Fl-Zgk" firstAttribute="centerX" secondItem="f7m-oo-kNk" secondAttribute="centerXWithinMargins" id="lJQ-gc-PMI"/>
+                                            <constraint firstItem="bZt-cy-z7p" firstAttribute="centerX" secondItem="f7m-oo-kNk" secondAttribute="centerX" id="mj0-L7-2wu"/>
+                                            <constraint firstItem="oPz-2J-7Kk" firstAttribute="top" secondItem="xyx-yJ-bOD" secondAttribute="bottom" constant="8" id="nQX-GL-tnJ"/>
+                                            <constraint firstItem="oPz-2J-7Kk" firstAttribute="centerX" secondItem="f7m-oo-kNk" secondAttribute="centerX" id="oi4-iV-e2S"/>
+                                            <constraint firstAttribute="height" constant="200" id="qeE-cL-bEx"/>
+                                        </constraints>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="neura_sdk_demo_logo" translatesAutoresizingMaskIntoConstraints="NO" id="BLd-fr-L12">
+                                        <rect key="frame" x="94.5" y="48" width="186" height="18"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neura status:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDi-Nj-451">
+                                        <rect key="frame" x="136.5" y="322" width="102.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wB2-Lw-g7Z">
+                                        <rect key="frame" x="168" y="66" width="39" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disconnected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFo-Yg-zb9">
+                                        <rect key="frame" x="134" y="345.5" width="106" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="topMargin" secondItem="BLd-fr-L12" secondAttribute="top" constant="-20" id="0xI-oo-Eut"/>
+                                    <constraint firstItem="wB2-Lw-g7Z" firstAttribute="centerX" secondItem="f7m-oo-kNk" secondAttribute="centerX" id="2ME-nR-EzS"/>
+                                    <constraint firstItem="QFo-Yg-zb9" firstAttribute="centerX" secondItem="D9o-Os-9Z0" secondAttribute="centerX" id="5Lk-zN-sJi"/>
+                                    <constraint firstItem="BLd-fr-L12" firstAttribute="centerX" secondItem="D9o-Os-9Z0" secondAttribute="centerXWithinMargins" id="7WI-YS-o1T"/>
+                                    <constraint firstItem="sDi-Nj-451" firstAttribute="bottom" secondItem="QFo-Yg-zb9" secondAttribute="bottom" constant="-23.5" id="9Ce-RX-1wR"/>
+                                    <constraint firstItem="wB2-Lw-g7Z" firstAttribute="top" secondItem="BLd-fr-L12" secondAttribute="bottom" id="N6i-xi-3Jx"/>
+                                    <constraint firstAttribute="bottom" secondItem="QFo-Yg-zb9" secondAttribute="bottom" constant="20" id="R7N-Qe-evz"/>
+                                    <constraint firstItem="bZt-cy-z7p" firstAttribute="top" secondItem="wB2-Lw-g7Z" secondAttribute="bottom" constant="2" id="fYQ-8k-m86"/>
+                                    <constraint firstItem="f7m-oo-kNk" firstAttribute="centerX" secondItem="D9o-Os-9Z0" secondAttribute="centerX" id="qkY-eh-rAc"/>
+                                    <constraint firstItem="sDi-Nj-451" firstAttribute="centerX" secondItem="D9o-Os-9Z0" secondAttribute="centerXWithinMargins" id="uYi-l3-uSd"/>
+                                    <constraint firstItem="f7m-oo-kNk" firstAttribute="centerY" secondItem="D9o-Os-9Z0" secondAttribute="centerY" id="zVu-oL-kKy"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fk8-aH-VPj">
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmK-0y-OZZ" customClass="RoundedButton" customModule="Neura_Swift_Sample_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="35"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="Connect and Request Permissions">
+                                            <color key="titleColor" red="0.2065143883228302" green="0.71280920505523682" blue="0.93981075286865234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LaE-DU-AjU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="v9B-15-6lt" userLabel="Phone Login Button" customClass="RoundedButton" customModule="Neura_Swift_Sample_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="45" width="335" height="35"/>
+                                        <color key="backgroundColor" red="0.23921568630000001" green="0.80784313730000001" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Phone Verification Login">
+                                            <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="nGW-JO-ja5" kind="modal" modalPresentationStyle="currentContext" id="2rF-dj-jxH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="aIg-x4-Bql"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="D9o-Os-9Z0" firstAttribute="bottom" secondItem="fk8-aH-VPj" secondAttribute="bottom" constant="-261" id="ArH-zx-epd"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="fk8-aH-VPj" secondAttribute="bottom" constant="20" id="DXE-CS-YVl"/>
+                            <constraint firstItem="D9o-Os-9Z0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EFU-bk-j11"/>
+                            <constraint firstItem="D9o-Os-9Z0" firstAttribute="top" secondItem="0sh-og-tjE" secondAttribute="bottom" constant="-20" id="HDE-JM-hev"/>
+                            <constraint firstAttribute="trailing" secondItem="D9o-Os-9Z0" secondAttribute="trailing" id="XQ6-li-Trz"/>
+                            <constraint firstItem="fk8-aH-VPj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ft3-rU-aAZ"/>
+                            <constraint firstAttribute="trailing" secondItem="fk8-aH-VPj" secondAttribute="trailing" constant="20" id="zS1-FC-n5X"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="appVersionLabel" destination="bZt-cy-z7p" id="spE-EK-8Zp"/>
+                        <outlet property="loginButton" destination="vmK-0y-OZZ" id="IOk-i0-LzX"/>
+                        <outlet property="neuraStatusLabel" destination="QFo-Yg-zb9" id="F1J-rR-8kW"/>
+                        <outlet property="neuraSymbolBottom" destination="oPz-2J-7Kk" id="v6D-ea-Q0Y"/>
+                        <outlet property="neuraSymbolTop" destination="xyx-yJ-bOD" id="6xT-h0-SRm"/>
+                        <outlet property="phoneVerificationBtn" destination="v9B-15-6lt" id="ahd-b9-fmY"/>
+                        <outlet property="sdkVersionLabel" destination="yhl-Fl-Zgk" id="v1G-9v-YCB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339" y="312"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="neura_sdk_demo_logo" width="186" height="18"/>
+        <image name="neura_symbol_bottom_element" width="138" height="70"/>
+        <image name="neura_symbol_top_element" width="138" height="70"/>
+    </resources>
+</document>

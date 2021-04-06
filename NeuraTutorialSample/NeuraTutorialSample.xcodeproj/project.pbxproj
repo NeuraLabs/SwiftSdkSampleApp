@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		124C31D872DD4A293833052D /* Pods_NeuraTutorialSample_NeuraTutorialSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE1A0AB473F1C4F001DB5CD /* Pods_NeuraTutorialSample_NeuraTutorialSampleUITests.framework */; };
 		14E31CE3D16209D50190F8AA /* Pods_NeuraTutorialSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE8B30E681C3C657563F30F /* Pods_NeuraTutorialSampleTests.framework */; };
+		574CFBD8261C6EA300F1B2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574CFBC3261C6EA300F1B2C5 /* Main.storyboard */; };
+		574CFBD9261C6EA300F1B2C5 /* PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBC5261C6EA300F1B2C5 /* PushNotifications.swift */; };
+		574CFBDA261C6EA300F1B2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574CFBC7261C6EA300F1B2C5 /* LaunchScreen.storyboard */; };
+		574CFBDB261C6EA300F1B2C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBCA261C6EA300F1B2C5 /* ViewController.swift */; };
+		574CFBDC261C6EA300F1B2C5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBCE261C6EA300F1B2C5 /* RoundedButton.swift */; };
+		574CFBDD261C6EA300F1B2C5 /* CountryCodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBD0261C6EA300F1B2C5 /* CountryCodeHelper.swift */; };
+		574CFBDE261C6EA300F1B2C5 /* CountryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 574CFBD1261C6EA300F1B2C5 /* CountryCodes.json */; };
+		574CFBDF261C6EA300F1B2C5 /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574CFBD2261C6EA300F1B2C5 /* login.storyboard */; };
+		574CFBE0261C6EA300F1B2C5 /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBD3261C6EA300F1B2C5 /* TermsAndConditionsViewController.swift */; };
+		574CFBE1261C6EA300F1B2C5 /* LoginPhoneAuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBD4261C6EA300F1B2C5 /* LoginPhoneAuthVC.swift */; };
+		574CFBE2261C6EA300F1B2C5 /* LoginCountrySelectorTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBD5261C6EA300F1B2C5 /* LoginCountrySelectorTVC.swift */; };
+		574CFBE3261C6EA300F1B2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574CFBD6261C6EA300F1B2C5 /* Assets.xcassets */; };
 		B5463D884E701E5BA2042690 /* Pods_NeuraTutorialSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C211E28137D2AE89588F9FFF /* Pods_NeuraTutorialSample.framework */; };
 		B8D0B7082619A9C40080E2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0B7072619A9C40080E2BF /* AppDelegate.swift */; };
-		B8D0B70A2619A9C40080E2BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0B7092619A9C40080E2BF /* SceneDelegate.swift */; };
-		B8D0B70C2619A9C40080E2BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0B70B2619A9C40080E2BF /* ViewController.swift */; };
-		B8D0B70F2619A9C40080E2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D0B70D2619A9C40080E2BF /* Main.storyboard */; };
 		B8D0B7112619A9C60080E2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8D0B7102619A9C60080E2BF /* Assets.xcassets */; };
 		B8D0B7142619A9C60080E2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D0B7122619A9C60080E2BF /* LaunchScreen.storyboard */; };
 		B8D0B71F2619A9C60080E2BF /* NeuraTutorialSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0B71E2619A9C60080E2BF /* NeuraTutorialSampleTests.swift */; };
@@ -42,11 +51,21 @@
 		201BA4AE1BD609FFF5870E21 /* Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3CE1A0AB473F1C4F001DB5CD /* Pods_NeuraTutorialSample_NeuraTutorialSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuraTutorialSample_NeuraTutorialSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57320AAAD751647B7AE7CD19 /* Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		574CFBC3261C6EA300F1B2C5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		574CFBC5261C6EA300F1B2C5 /* PushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotifications.swift; sourceTree = "<group>"; };
+		574CFBC8261C6EA300F1B2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		574CFBCA261C6EA300F1B2C5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		574CFBCC261C6EA300F1B2C5 /* Neura Swift Sample App-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Neura Swift Sample App-Bridging-Header.h"; sourceTree = "<group>"; };
+		574CFBCE261C6EA300F1B2C5 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		574CFBD0261C6EA300F1B2C5 /* CountryCodeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeHelper.swift; sourceTree = "<group>"; };
+		574CFBD1261C6EA300F1B2C5 /* CountryCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryCodes.json; sourceTree = "<group>"; };
+		574CFBD2261C6EA300F1B2C5 /* login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
+		574CFBD3261C6EA300F1B2C5 /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		574CFBD4261C6EA300F1B2C5 /* LoginPhoneAuthVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPhoneAuthVC.swift; sourceTree = "<group>"; };
+		574CFBD5261C6EA300F1B2C5 /* LoginCountrySelectorTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCountrySelectorTVC.swift; sourceTree = "<group>"; };
+		574CFBD6261C6EA300F1B2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8D0B7042619A9C40080E2BF /* NeuraTutorialSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuraTutorialSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D0B7072619A9C40080E2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8D0B7092619A9C40080E2BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B8D0B70B2619A9C40080E2BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B8D0B70E2619A9C40080E2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8D0B7102619A9C60080E2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8D0B7132619A9C60080E2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8D0B7152619A9C60080E2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +75,6 @@
 		B8D0B7252619A9C60080E2BF /* NeuraTutorialSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuraTutorialSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D0B7292619A9C60080E2BF /* NeuraTutorialSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuraTutorialSampleUITests.swift; sourceTree = "<group>"; };
 		B8D0B72B2619A9C60080E2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8D0B7502619B4F20080E2BF /* NeuraTutorialSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeuraTutorialSample.entitlements; sourceTree = "<group>"; };
 		BE5D722BF44F9ECA42945F12 /* Pods-NeuraTutorialSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraTutorialSampleTests.release.xcconfig"; path = "Target Support Files/Pods-NeuraTutorialSampleTests/Pods-NeuraTutorialSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		BFE8B30E681C3C657563F30F /* Pods_NeuraTutorialSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuraTutorialSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C211E28137D2AE89588F9FFF /* Pods_NeuraTutorialSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuraTutorialSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +123,59 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		574CFBC4261C6EA300F1B2C5 /* PushNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				574CFBC5261C6EA300F1B2C5 /* PushNotifications.swift */,
+			);
+			path = PushNotifications;
+			sourceTree = "<group>";
+		};
+		574CFBC6261C6EA300F1B2C5 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				574CFBC7261C6EA300F1B2C5 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		574CFBC9261C6EA300F1B2C5 /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				574CFBCA261C6EA300F1B2C5 /* ViewController.swift */,
+			);
+			path = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		574CFBCB261C6EA300F1B2C5 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				574CFBCC261C6EA300F1B2C5 /* Neura Swift Sample App-Bridging-Header.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		574CFBCD261C6EA300F1B2C5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				574CFBCE261C6EA300F1B2C5 /* RoundedButton.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		574CFBCF261C6EA300F1B2C5 /* Phone Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				574CFBD0261C6EA300F1B2C5 /* CountryCodeHelper.swift */,
+				574CFBD1261C6EA300F1B2C5 /* CountryCodes.json */,
+				574CFBD2261C6EA300F1B2C5 /* login.storyboard */,
+				574CFBD3261C6EA300F1B2C5 /* TermsAndConditionsViewController.swift */,
+				574CFBD4261C6EA300F1B2C5 /* LoginPhoneAuthVC.swift */,
+				574CFBD5261C6EA300F1B2C5 /* LoginCountrySelectorTVC.swift */,
+			);
+			path = "Phone Authentication";
+			sourceTree = "<group>";
+		};
 		5FF365579B70C1A8510B3A7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,11 +211,15 @@
 		B8D0B7062619A9C40080E2BF /* NeuraTutorialSample */ = {
 			isa = PBXGroup;
 			children = (
-				B8D0B7502619B4F20080E2BF /* NeuraTutorialSample.entitlements */,
+				574CFBD6261C6EA300F1B2C5 /* Assets.xcassets */,
+				574CFBC6261C6EA300F1B2C5 /* Base.lproj */,
+				574CFBC9261C6EA300F1B2C5 /* Main View Controller */,
+				574CFBC3261C6EA300F1B2C5 /* Main.storyboard */,
+				574CFBCB261C6EA300F1B2C5 /* MBProgressHUD */,
+				574CFBCF261C6EA300F1B2C5 /* Phone Authentication */,
+				574CFBC4261C6EA300F1B2C5 /* PushNotifications */,
+				574CFBCD261C6EA300F1B2C5 /* Utilities */,
 				B8D0B7072619A9C40080E2BF /* AppDelegate.swift */,
-				B8D0B7092619A9C40080E2BF /* SceneDelegate.swift */,
-				B8D0B70B2619A9C40080E2BF /* ViewController.swift */,
-				B8D0B70D2619A9C40080E2BF /* Main.storyboard */,
 				B8D0B7102619A9C60080E2BF /* Assets.xcassets */,
 				B8D0B7122619A9C60080E2BF /* LaunchScreen.storyboard */,
 				B8D0B7152619A9C60080E2BF /* Info.plist */,
@@ -278,9 +353,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574CFBDF261C6EA300F1B2C5 /* login.storyboard in Resources */,
+				574CFBDE261C6EA300F1B2C5 /* CountryCodes.json in Resources */,
+				574CFBD8261C6EA300F1B2C5 /* Main.storyboard in Resources */,
+				574CFBDA261C6EA300F1B2C5 /* LaunchScreen.storyboard in Resources */,
+				574CFBE3261C6EA300F1B2C5 /* Assets.xcassets in Resources */,
 				B8D0B7142619A9C60080E2BF /* LaunchScreen.storyboard in Resources */,
 				B8D0B7112619A9C60080E2BF /* Assets.xcassets in Resources */,
-				B8D0B70F2619A9C40080E2BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,9 +487,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8D0B70C2619A9C40080E2BF /* ViewController.swift in Sources */,
+				574CFBDB261C6EA300F1B2C5 /* ViewController.swift in Sources */,
+				574CFBDD261C6EA300F1B2C5 /* CountryCodeHelper.swift in Sources */,
+				574CFBE0261C6EA300F1B2C5 /* TermsAndConditionsViewController.swift in Sources */,
+				574CFBE2261C6EA300F1B2C5 /* LoginCountrySelectorTVC.swift in Sources */,
+				574CFBD9261C6EA300F1B2C5 /* PushNotifications.swift in Sources */,
 				B8D0B7082619A9C40080E2BF /* AppDelegate.swift in Sources */,
-				B8D0B70A2619A9C40080E2BF /* SceneDelegate.swift in Sources */,
+				574CFBDC261C6EA300F1B2C5 /* RoundedButton.swift in Sources */,
+				574CFBE1261C6EA300F1B2C5 /* LoginPhoneAuthVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,12 +530,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B8D0B70D2619A9C40080E2BF /* Main.storyboard */ = {
+		574CFBC7261C6EA300F1B2C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B8D0B70E2619A9C40080E2BF /* Base */,
+				574CFBC8261C6EA300F1B2C5 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		B8D0B7122619A9C60080E2BF /* LaunchScreen.storyboard */ = {
@@ -585,18 +669,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C387A659E114A73BDE8A0F48 /* Pods-NeuraTutorialSample.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NeuraTutorialSample/NeuraTutorialSample.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UF894MT86P;
 				INFOPLIST_FILE = NeuraTutorialSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.neuraTutorialSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -606,18 +692,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 10483B7F92D6960A28FBEA2C /* Pods-NeuraTutorialSample.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NeuraTutorialSample/NeuraTutorialSample.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UF894MT86P;
 				INFOPLIST_FILE = NeuraTutorialSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.neuraTutorialSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
