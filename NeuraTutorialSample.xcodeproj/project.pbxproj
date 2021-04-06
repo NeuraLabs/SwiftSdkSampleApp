@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124C31D872DD4A293833052D /* Pods_NeuraTutorialSample_NeuraTutorialSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE1A0AB473F1C4F001DB5CD /* Pods_NeuraTutorialSample_NeuraTutorialSampleUITests.framework */; };
+		14E31CE3D16209D50190F8AA /* Pods_NeuraTutorialSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE8B30E681C3C657563F30F /* Pods_NeuraTutorialSampleTests.framework */; };
+		B5463D884E701E5BA2042690 /* Pods_NeuraTutorialSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C211E28137D2AE89588F9FFF /* Pods_NeuraTutorialSample.framework */; };
+		B8D0B7082619A9C40080E2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0B7072619A9C40080E2BF /* AppDelegate.swift */; };
+		B8D0B70A2619A9C40080E2BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0B7092619A9C40080E2BF /* SceneDelegate.swift */; };
+		B8D0B70C2619A9C40080E2BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0B70B2619A9C40080E2BF /* ViewController.swift */; };
+		B8D0B70F2619A9C40080E2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D0B70D2619A9C40080E2BF /* Main.storyboard */; };
+		B8D0B7112619A9C60080E2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8D0B7102619A9C60080E2BF /* Assets.xcassets */; };
+		B8D0B7142619A9C60080E2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8D0B7122619A9C60080E2BF /* LaunchScreen.storyboard */; };
+		B8D0B71F2619A9C60080E2BF /* NeuraTutorialSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0B71E2619A9C60080E2BF /* NeuraTutorialSampleTests.swift */; };
+		B8D0B72A2619A9C60080E2BF /* NeuraTutorialSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0B7292619A9C60080E2BF /* NeuraTutorialSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8D0B71B2619A9C60080E2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8D0B6FC2619A9C40080E2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8D0B7032619A9C40080E2BF;
+			remoteInfo = NeuraTutorialSample;
+		};
+		B8D0B7262619A9C60080E2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8D0B6FC2619A9C40080E2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8D0B7032619A9C40080E2BF;
+			remoteInfo = NeuraTutorialSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10483B7F92D6960A28FBEA2C /* Pods-NeuraTutorialSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraTutorialSample.release.xcconfig"; path = "Target Support Files/Pods-NeuraTutorialSample/Pods-NeuraTutorialSample.release.xcconfig"; sourceTree = "<group>"; };
+		201BA4AE1BD609FFF5870E21 /* Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3CE1A0AB473F1C4F001DB5CD /* Pods_NeuraTutorialSample_NeuraTutorialSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuraTutorialSample_NeuraTutorialSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57320AAAD751647B7AE7CD19 /* Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8D0B7042619A9C40080E2BF /* NeuraTutorialSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuraTutorialSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D0B7072619A9C40080E2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8D0B7092619A9C40080E2BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B8D0B70B2619A9C40080E2BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8D0B70E2619A9C40080E2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8D0B7102619A9C60080E2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8D0B7132619A9C60080E2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8D0B7152619A9C60080E2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D0B71A2619A9C60080E2BF /* NeuraTutorialSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuraTutorialSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D0B71E2619A9C60080E2BF /* NeuraTutorialSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuraTutorialSampleTests.swift; sourceTree = "<group>"; };
+		B8D0B7202619A9C60080E2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D0B7252619A9C60080E2BF /* NeuraTutorialSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuraTutorialSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D0B7292619A9C60080E2BF /* NeuraTutorialSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuraTutorialSampleUITests.swift; sourceTree = "<group>"; };
+		B8D0B72B2619A9C60080E2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D0B7502619B4F20080E2BF /* NeuraTutorialSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeuraTutorialSample.entitlements; sourceTree = "<group>"; };
+		BE5D722BF44F9ECA42945F12 /* Pods-NeuraTutorialSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraTutorialSampleTests.release.xcconfig"; path = "Target Support Files/Pods-NeuraTutorialSampleTests/Pods-NeuraTutorialSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFE8B30E681C3C657563F30F /* Pods_NeuraTutorialSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuraTutorialSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C211E28137D2AE89588F9FFF /* Pods_NeuraTutorialSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuraTutorialSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C387A659E114A73BDE8A0F48 /* Pods-NeuraTutorialSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraTutorialSample.debug.xcconfig"; path = "Target Support Files/Pods-NeuraTutorialSample/Pods-NeuraTutorialSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E33DC4F35C6BED66F50B5769 /* Pods-NeuraTutorialSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuraTutorialSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-NeuraTutorialSampleTests/Pods-NeuraTutorialSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8D0B7012619A9C40080E2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5463D884E701E5BA2042690 /* Pods_NeuraTutorialSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D0B7172619A9C60080E2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E31CE3D16209D50190F8AA /* Pods_NeuraTutorialSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D0B7222619A9C60080E2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124C31D872DD4A293833052D /* Pods_NeuraTutorialSample_NeuraTutorialSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3556C3C08EDFF2814E2B0542 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C387A659E114A73BDE8A0F48 /* Pods-NeuraTutorialSample.debug.xcconfig */,
+				10483B7F92D6960A28FBEA2C /* Pods-NeuraTutorialSample.release.xcconfig */,
+				57320AAAD751647B7AE7CD19 /* Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.debug.xcconfig */,
+				201BA4AE1BD609FFF5870E21 /* Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.release.xcconfig */,
+				E33DC4F35C6BED66F50B5769 /* Pods-NeuraTutorialSampleTests.debug.xcconfig */,
+				BE5D722BF44F9ECA42945F12 /* Pods-NeuraTutorialSampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5FF365579B70C1A8510B3A7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C211E28137D2AE89588F9FFF /* Pods_NeuraTutorialSample.framework */,
+				3CE1A0AB473F1C4F001DB5CD /* Pods_NeuraTutorialSample_NeuraTutorialSampleUITests.framework */,
+				BFE8B30E681C3C657563F30F /* Pods_NeuraTutorialSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8D0B6FB2619A9C40080E2BF = {
+			isa = PBXGroup;
+			children = (
+				B8D0B7062619A9C40080E2BF /* NeuraTutorialSample */,
+				B8D0B71D2619A9C60080E2BF /* NeuraTutorialSampleTests */,
+				B8D0B7282619A9C60080E2BF /* NeuraTutorialSampleUITests */,
+				B8D0B7052619A9C40080E2BF /* Products */,
+				3556C3C08EDFF2814E2B0542 /* Pods */,
+				5FF365579B70C1A8510B3A7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8D0B7052619A9C40080E2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8D0B7042619A9C40080E2BF /* NeuraTutorialSample.app */,
+				B8D0B71A2619A9C60080E2BF /* NeuraTutorialSampleTests.xctest */,
+				B8D0B7252619A9C60080E2BF /* NeuraTutorialSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8D0B7062619A9C40080E2BF /* NeuraTutorialSample */ = {
+			isa = PBXGroup;
+			children = (
+				B8D0B7502619B4F20080E2BF /* NeuraTutorialSample.entitlements */,
+				B8D0B7072619A9C40080E2BF /* AppDelegate.swift */,
+				B8D0B7092619A9C40080E2BF /* SceneDelegate.swift */,
+				B8D0B70B2619A9C40080E2BF /* ViewController.swift */,
+				B8D0B70D2619A9C40080E2BF /* Main.storyboard */,
+				B8D0B7102619A9C60080E2BF /* Assets.xcassets */,
+				B8D0B7122619A9C60080E2BF /* LaunchScreen.storyboard */,
+				B8D0B7152619A9C60080E2BF /* Info.plist */,
+			);
+			path = NeuraTutorialSample;
+			sourceTree = "<group>";
+		};
+		B8D0B71D2619A9C60080E2BF /* NeuraTutorialSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8D0B71E2619A9C60080E2BF /* NeuraTutorialSampleTests.swift */,
+				B8D0B7202619A9C60080E2BF /* Info.plist */,
+			);
+			path = NeuraTutorialSampleTests;
+			sourceTree = "<group>";
+		};
+		B8D0B7282619A9C60080E2BF /* NeuraTutorialSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8D0B7292619A9C60080E2BF /* NeuraTutorialSampleUITests.swift */,
+				B8D0B72B2619A9C60080E2BF /* Info.plist */,
+			);
+			path = NeuraTutorialSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8D0B7032619A9C40080E2BF /* NeuraTutorialSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D0B72E2619A9C60080E2BF /* Build configuration list for PBXNativeTarget "NeuraTutorialSample" */;
+			buildPhases = (
+				EA9BF3935C893DC6AC92EE62 /* [CP] Check Pods Manifest.lock */,
+				B8D0B7002619A9C40080E2BF /* Sources */,
+				B8D0B7012619A9C40080E2BF /* Frameworks */,
+				B8D0B7022619A9C40080E2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuraTutorialSample;
+			productName = NeuraTutorialSample;
+			productReference = B8D0B7042619A9C40080E2BF /* NeuraTutorialSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8D0B7192619A9C60080E2BF /* NeuraTutorialSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D0B7312619A9C60080E2BF /* Build configuration list for PBXNativeTarget "NeuraTutorialSampleTests" */;
+			buildPhases = (
+				796C559D7D2517DA096D852B /* [CP] Check Pods Manifest.lock */,
+				B8D0B7162619A9C60080E2BF /* Sources */,
+				B8D0B7172619A9C60080E2BF /* Frameworks */,
+				B8D0B7182619A9C60080E2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8D0B71C2619A9C60080E2BF /* PBXTargetDependency */,
+			);
+			name = NeuraTutorialSampleTests;
+			productName = NeuraTutorialSampleTests;
+			productReference = B8D0B71A2619A9C60080E2BF /* NeuraTutorialSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8D0B7242619A9C60080E2BF /* NeuraTutorialSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D0B7342619A9C70080E2BF /* Build configuration list for PBXNativeTarget "NeuraTutorialSampleUITests" */;
+			buildPhases = (
+				4270AB439027D58F33521F65 /* [CP] Check Pods Manifest.lock */,
+				B8D0B7212619A9C60080E2BF /* Sources */,
+				B8D0B7222619A9C60080E2BF /* Frameworks */,
+				B8D0B7232619A9C60080E2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8D0B7272619A9C60080E2BF /* PBXTargetDependency */,
+			);
+			name = NeuraTutorialSampleUITests;
+			productName = NeuraTutorialSampleUITests;
+			productReference = B8D0B7252619A9C60080E2BF /* NeuraTutorialSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8D0B6FC2619A9C40080E2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B8D0B7032619A9C40080E2BF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B8D0B7192619A9C60080E2BF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B8D0B7032619A9C40080E2BF;
+					};
+					B8D0B7242619A9C60080E2BF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B8D0B7032619A9C40080E2BF;
+					};
+				};
+			};
+			buildConfigurationList = B8D0B6FF2619A9C40080E2BF /* Build configuration list for PBXProject "NeuraTutorialSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8D0B6FB2619A9C40080E2BF;
+			productRefGroup = B8D0B7052619A9C40080E2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8D0B7032619A9C40080E2BF /* NeuraTutorialSample */,
+				B8D0B7192619A9C60080E2BF /* NeuraTutorialSampleTests */,
+				B8D0B7242619A9C60080E2BF /* NeuraTutorialSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8D0B7022619A9C40080E2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D0B7142619A9C60080E2BF /* LaunchScreen.storyboard in Resources */,
+				B8D0B7112619A9C60080E2BF /* Assets.xcassets in Resources */,
+				B8D0B70F2619A9C40080E2BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D0B7182619A9C60080E2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D0B7232619A9C60080E2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4270AB439027D58F33521F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeuraTutorialSample-NeuraTutorialSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		796C559D7D2517DA096D852B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeuraTutorialSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9BF3935C893DC6AC92EE62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeuraTutorialSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8D0B7002619A9C40080E2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D0B70C2619A9C40080E2BF /* ViewController.swift in Sources */,
+				B8D0B7082619A9C40080E2BF /* AppDelegate.swift in Sources */,
+				B8D0B70A2619A9C40080E2BF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D0B7162619A9C60080E2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D0B71F2619A9C60080E2BF /* NeuraTutorialSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D0B7212619A9C60080E2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D0B72A2619A9C60080E2BF /* NeuraTutorialSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8D0B71C2619A9C60080E2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8D0B7032619A9C40080E2BF /* NeuraTutorialSample */;
+			targetProxy = B8D0B71B2619A9C60080E2BF /* PBXContainerItemProxy */;
+		};
+		B8D0B7272619A9C60080E2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8D0B7032619A9C40080E2BF /* NeuraTutorialSample */;
+			targetProxy = B8D0B7262619A9C60080E2BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8D0B70D2619A9C40080E2BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8D0B70E2619A9C40080E2BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8D0B7122619A9C60080E2BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8D0B7132619A9C60080E2BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8D0B72C2619A9C60080E2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8D0B72D2619A9C60080E2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8D0B72F2619A9C60080E2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C387A659E114A73BDE8A0F48 /* Pods-NeuraTutorialSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NeuraTutorialSample/NeuraTutorialSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF894MT86P;
+				INFOPLIST_FILE = NeuraTutorialSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neuraTutorialSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8D0B7302619A9C60080E2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10483B7F92D6960A28FBEA2C /* Pods-NeuraTutorialSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NeuraTutorialSample/NeuraTutorialSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF894MT86P;
+				INFOPLIST_FILE = NeuraTutorialSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neuraTutorialSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8D0B7322619A9C60080E2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33DC4F35C6BED66F50B5769 /* Pods-NeuraTutorialSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF894MT86P;
+				INFOPLIST_FILE = NeuraTutorialSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Neura.NeuraTutorialSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuraTutorialSample.app/NeuraTutorialSample";
+			};
+			name = Debug;
+		};
+		B8D0B7332619A9C70080E2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5D722BF44F9ECA42945F12 /* Pods-NeuraTutorialSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF894MT86P;
+				INFOPLIST_FILE = NeuraTutorialSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Neura.NeuraTutorialSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuraTutorialSample.app/NeuraTutorialSample";
+			};
+			name = Release;
+		};
+		B8D0B7352619A9C70080E2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57320AAAD751647B7AE7CD19 /* Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF894MT86P;
+				INFOPLIST_FILE = NeuraTutorialSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Neura.NeuraTutorialSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeuraTutorialSample;
+			};
+			name = Debug;
+		};
+		B8D0B7362619A9C70080E2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201BA4AE1BD609FFF5870E21 /* Pods-NeuraTutorialSample-NeuraTutorialSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UF894MT86P;
+				INFOPLIST_FILE = NeuraTutorialSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Neura.NeuraTutorialSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeuraTutorialSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8D0B6FF2619A9C40080E2BF /* Build configuration list for PBXProject "NeuraTutorialSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D0B72C2619A9C60080E2BF /* Debug */,
+				B8D0B72D2619A9C60080E2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D0B72E2619A9C60080E2BF /* Build configuration list for PBXNativeTarget "NeuraTutorialSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D0B72F2619A9C60080E2BF /* Debug */,
+				B8D0B7302619A9C60080E2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D0B7312619A9C60080E2BF /* Build configuration list for PBXNativeTarget "NeuraTutorialSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D0B7322619A9C60080E2BF /* Debug */,
+				B8D0B7332619A9C70080E2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D0B7342619A9C70080E2BF /* Build configuration list for PBXNativeTarget "NeuraTutorialSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D0B7352619A9C70080E2BF /* Debug */,
+				B8D0B7362619A9C70080E2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8D0B6FC2619A9C40080E2BF /* Project object */;
+}
