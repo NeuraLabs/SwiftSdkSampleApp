@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NeuraTutorialSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="baj-zX-E03">
+                                <rect key="frame" x="16" y="60" width="382" height="350"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3C-qg-8pH">
+                                        <rect key="frame" x="148" y="0.0" width="86" height="30"/>
+                                        <state key="normal" title="authenticate"/>
+                                        <connections>
+                                            <action selector="authenticate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k7O-6Z-rms"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLy-fv-EXv">
+                                        <rect key="frame" x="155" y="80" width="72" height="30"/>
+                                        <state key="normal" title="external id"/>
+                                        <connections>
+                                            <action selector="setExternalId:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R8T-Zv-t1W"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sD-GH-LRZ">
+                                        <rect key="frame" x="148" y="160" width="86" height="30"/>
+                                        <state key="normal" title="engagement"/>
+                                        <connections>
+                                            <action selector="engagement:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Ye-ic-EQp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQE-SV-kj5">
+                                        <rect key="frame" x="124" y="240" width="134" height="30"/>
+                                        <state key="normal" title="location permission"/>
+                                        <connections>
+                                            <action selector="locationPermitions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aWW-fO-tMD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z29-0k-Uei">
+                                        <rect key="frame" x="152.5" y="320" width="77" height="30"/>
+                                        <state key="normal" title="notification"/>
+                                        <connections>
+                                            <action selector="notification:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ike-i4-R3E"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Dwi-xz-KnP">
+                                <rect key="frame" x="163.5" y="440" width="87" height="93.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sdk version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7f-Lo-GbQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="87" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="state" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhY-B1-UIR">
+                                        <rect key="frame" x="0.0" y="36.5" width="38" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user id " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whL-Hn-J8M">
+                                        <rect key="frame" x="0.0" y="73" width="56" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="baj-zX-E03" secondAttribute="trailing" constant="16" id="Pax-Ds-slf"/>
+                            <constraint firstItem="Dwi-xz-KnP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bxi-Vw-SH5"/>
+                            <constraint firstItem="baj-zX-E03" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="gS7-H2-Xar"/>
+                            <constraint firstItem="Dwi-xz-KnP" firstAttribute="top" secondItem="baj-zX-E03" secondAttribute="bottom" constant="30" id="r5s-6W-Z7U"/>
+                            <constraint firstItem="baj-zX-E03" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tYb-HV-iBX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sdkVersion" destination="I7f-Lo-GbQ" id="AxD-pT-PBo"/>
+                        <outlet property="state" destination="ZhY-B1-UIR" id="ech-L2-Eex"/>
+                        <outlet property="userID" destination="whL-Hn-J8M" id="gX0-BC-DZO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="104"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
