@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>bluetooth permision </string>
-	<key>NSMotionUsageDescription</key>
-	<string>Motion permission is required to be able to get motion activity data from your device.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Location permission is required to be able to track your device.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Location permission is required to be able to track your device.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -30,6 +22,14 @@
 	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>bluetooth permision </string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Location permission is required to be able to track your device.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location permission is required to be able to track your device.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Motion permission is required to be able to get motion activity data from your device.</string>
 	<key>Neura</key>
 	<dict>
 		<key>AlwaysTrackUserWhenAuthenticated</key>
@@ -72,25 +72,6 @@ Privacy - Bluetooth Peripheral Usage Description
 
 </key>
 	<string>Grant Peripheral bluetooth permit</string>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-		<key>UISceneConfigurations</key>
-		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
-			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
-				</dict>
-			</array>
-		</dict>
-	</dict>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>

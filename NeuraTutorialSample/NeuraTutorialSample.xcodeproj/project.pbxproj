@@ -14,12 +14,6 @@
 		574CFBDA261C6EA300F1B2C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574CFBC7261C6EA300F1B2C5 /* LaunchScreen.storyboard */; };
 		574CFBDB261C6EA300F1B2C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBCA261C6EA300F1B2C5 /* ViewController.swift */; };
 		574CFBDC261C6EA300F1B2C5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBCE261C6EA300F1B2C5 /* RoundedButton.swift */; };
-		574CFBDD261C6EA300F1B2C5 /* CountryCodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBD0261C6EA300F1B2C5 /* CountryCodeHelper.swift */; };
-		574CFBDE261C6EA300F1B2C5 /* CountryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 574CFBD1261C6EA300F1B2C5 /* CountryCodes.json */; };
-		574CFBDF261C6EA300F1B2C5 /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574CFBD2261C6EA300F1B2C5 /* login.storyboard */; };
-		574CFBE0261C6EA300F1B2C5 /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBD3261C6EA300F1B2C5 /* TermsAndConditionsViewController.swift */; };
-		574CFBE1261C6EA300F1B2C5 /* LoginPhoneAuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBD4261C6EA300F1B2C5 /* LoginPhoneAuthVC.swift */; };
-		574CFBE2261C6EA300F1B2C5 /* LoginCountrySelectorTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574CFBD5261C6EA300F1B2C5 /* LoginCountrySelectorTVC.swift */; };
 		574CFBE3261C6EA300F1B2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574CFBD6261C6EA300F1B2C5 /* Assets.xcassets */; };
 		B5463D884E701E5BA2042690 /* Pods_NeuraTutorialSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C211E28137D2AE89588F9FFF /* Pods_NeuraTutorialSample.framework */; };
 		B8D0B7082619A9C40080E2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0B7072619A9C40080E2BF /* AppDelegate.swift */; };
@@ -55,14 +49,7 @@
 		574CFBC5261C6EA300F1B2C5 /* PushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotifications.swift; sourceTree = "<group>"; };
 		574CFBC8261C6EA300F1B2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		574CFBCA261C6EA300F1B2C5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		574CFBCC261C6EA300F1B2C5 /* Neura Swift Sample App-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Neura Swift Sample App-Bridging-Header.h"; sourceTree = "<group>"; };
 		574CFBCE261C6EA300F1B2C5 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
-		574CFBD0261C6EA300F1B2C5 /* CountryCodeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeHelper.swift; sourceTree = "<group>"; };
-		574CFBD1261C6EA300F1B2C5 /* CountryCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryCodes.json; sourceTree = "<group>"; };
-		574CFBD2261C6EA300F1B2C5 /* login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
-		574CFBD3261C6EA300F1B2C5 /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
-		574CFBD4261C6EA300F1B2C5 /* LoginPhoneAuthVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPhoneAuthVC.swift; sourceTree = "<group>"; };
-		574CFBD5261C6EA300F1B2C5 /* LoginCountrySelectorTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCountrySelectorTVC.swift; sourceTree = "<group>"; };
 		574CFBD6261C6EA300F1B2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8D0B7042619A9C40080E2BF /* NeuraTutorialSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuraTutorialSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D0B7072619A9C40080E2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -147,33 +134,12 @@
 			path = "Main View Controller";
 			sourceTree = "<group>";
 		};
-		574CFBCB261C6EA300F1B2C5 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				574CFBCC261C6EA300F1B2C5 /* Neura Swift Sample App-Bridging-Header.h */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
 		574CFBCD261C6EA300F1B2C5 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				574CFBCE261C6EA300F1B2C5 /* RoundedButton.swift */,
 			);
 			path = Utilities;
-			sourceTree = "<group>";
-		};
-		574CFBCF261C6EA300F1B2C5 /* Phone Authentication */ = {
-			isa = PBXGroup;
-			children = (
-				574CFBD0261C6EA300F1B2C5 /* CountryCodeHelper.swift */,
-				574CFBD1261C6EA300F1B2C5 /* CountryCodes.json */,
-				574CFBD2261C6EA300F1B2C5 /* login.storyboard */,
-				574CFBD3261C6EA300F1B2C5 /* TermsAndConditionsViewController.swift */,
-				574CFBD4261C6EA300F1B2C5 /* LoginPhoneAuthVC.swift */,
-				574CFBD5261C6EA300F1B2C5 /* LoginCountrySelectorTVC.swift */,
-			);
-			path = "Phone Authentication";
 			sourceTree = "<group>";
 		};
 		5FF365579B70C1A8510B3A7A /* Frameworks */ = {
@@ -215,8 +181,6 @@
 				574CFBC6261C6EA300F1B2C5 /* Base.lproj */,
 				574CFBC9261C6EA300F1B2C5 /* Main View Controller */,
 				574CFBC3261C6EA300F1B2C5 /* Main.storyboard */,
-				574CFBCB261C6EA300F1B2C5 /* MBProgressHUD */,
-				574CFBCF261C6EA300F1B2C5 /* Phone Authentication */,
 				574CFBC4261C6EA300F1B2C5 /* PushNotifications */,
 				574CFBCD261C6EA300F1B2C5 /* Utilities */,
 				B8D0B7072619A9C40080E2BF /* AppDelegate.swift */,
@@ -353,8 +317,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574CFBDF261C6EA300F1B2C5 /* login.storyboard in Resources */,
-				574CFBDE261C6EA300F1B2C5 /* CountryCodes.json in Resources */,
 				574CFBD8261C6EA300F1B2C5 /* Main.storyboard in Resources */,
 				574CFBDA261C6EA300F1B2C5 /* LaunchScreen.storyboard in Resources */,
 				574CFBE3261C6EA300F1B2C5 /* Assets.xcassets in Resources */,
@@ -488,13 +450,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				574CFBDB261C6EA300F1B2C5 /* ViewController.swift in Sources */,
-				574CFBDD261C6EA300F1B2C5 /* CountryCodeHelper.swift in Sources */,
-				574CFBE0261C6EA300F1B2C5 /* TermsAndConditionsViewController.swift in Sources */,
-				574CFBE2261C6EA300F1B2C5 /* LoginCountrySelectorTVC.swift in Sources */,
 				574CFBD9261C6EA300F1B2C5 /* PushNotifications.swift in Sources */,
 				B8D0B7082619A9C40080E2BF /* AppDelegate.swift in Sources */,
 				574CFBDC261C6EA300F1B2C5 /* RoundedButton.swift in Sources */,
-				574CFBE1261C6EA300F1B2C5 /* LoginPhoneAuthVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,7 +633,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UF894MT86P;
 				INFOPLIST_FILE = NeuraTutorialSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -698,7 +656,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UF894MT86P;
 				INFOPLIST_FILE = NeuraTutorialSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
